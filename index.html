@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+<meta name="description" content="Jual Besi H-Beam, WF, Pipa SCH, Plat Kapal & Jasa Potong Besi Presisi di Bekasi. Supplier Besi SNI Terlengkap & Termurah.">
+<meta property="og:title" content="CV TRIA BAJA UTAMA | Jual Besi & Jasa Potong Bekasi">
+<meta property="og:description" content="Supplier Besi SNI & Layanan Jasa Pemotongan Presisi. Melayani kebutuhan konstruksi dengan pengiriman cepat Jabodetabek.">
+<meta property="og:image" content="assets/images/hero.jpg">
+<meta property="og:url" content="https://triabajautama.com">
+<meta property="og:type" content="website">
+
+<title>Jual Besi & Jasa Pemotongan - Bekasi | CV TRIA BAJA UTAMA</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="assets/fav/favicon.png" sizes="any">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+  /* CSS KHUSUS HALAMAN INDEX */
+  
+  /* 1. PARTNER SECTION */
+  .partner-section { padding: 60px 20px; background: #fff; border-top: 1px solid #f1f5f9; }
+  .slider-container { overflow: hidden; padding: 40px 0; background: white; white-space: nowrap; position: relative; }
+  .slider-container::before, .slider-container::after { content: ""; position: absolute; top: 0; width: 100px; height: 100%; z-index: 2; }
+  .slider-container::before { left: 0; background: linear-gradient(to right, white, transparent); }
+  .slider-container::after { right: 0; background: linear-gradient(to left, white, transparent); }
+  .slider-track { display: inline-block; animation: scroll-left 60s linear infinite; }
+  .partner-logo { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; width: 250px; height: 120px; margin: 0 10px; transition: transform 0.3s ease; }
+  .partner-logo:hover { transform: scale(1.05); }
+  .partner-logo img { width: 100% !important; height: 100% !important; max-width: 220px !important; max-height: 100px !important; object-fit: contain; display: block; margin: 0 auto; }
+  
+  /* Animasi Slider -33.33% untuk 3 set logo agar looping mulus */
+  @keyframes scroll-left { 0% { transform: translateX(0); } 100% { transform: translateX(-33.333%); } }
+
+  /* 2. FAQ SECTION */
+  .faq-container { max-width: 800px; margin: 0 auto; }
+  .faq-item { margin-bottom: 15px; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: white; }
+  .faq-item summary { padding: 15px 20px; cursor: pointer; font-weight: 700; background: #f8fafc; color: var(--primary); list-style: none; display: flex; justify-content: space-between; align-items: center; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 20px; font-weight: bold; }
+  .faq-item[open] summary::after { content: '-'; }
+  .faq-item p { padding: 20px; margin: 0; border-top: 1px solid var(--border); color: var(--muted); line-height: 1.6; }
+
+  /* 3. BACK TO TOP */
+  #backToTop { display: none; position: fixed; bottom: 80px; right: 20px; z-index: 99; border: none; outline: none; background-color: var(--primary); color: white; cursor: pointer; padding: 10px; border-radius: 50%; width: 45px; height: 45px; font-size: 18px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: all 0.3s ease; align-items: center; justify-content: center; }
+  #backToTop:hover { background-color: var(--accent); transform: translateY(-3px); }
+
+  /* 4. HIDDEN PRODUCTS (INI PENTING AGAR TIDAK MUNCUL SEMUA DI AWAL) */
+  .more-products { display: none; }
+
+  /* --- MEDIA QUERY --- */
+  @media (max-width: 768px) {
+    .mobile-nav a { text-align: left !important; padding-left: 20px !important; justify-content: flex-start !important; }
+    .mobile-dropdown-toggle { justify-content: flex-start !important; padding-left: 20px !important; }
+    .mobile-dropdown-menu a { padding-left: 40px !important; text-align: left !important; }
+
+    .hero { height: auto !important; min-height: 500px; display: flex; align-items: center; background: #000; }
+    .hero-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.5; }
+    .hero-content { position: relative !important; transform: none !important; top: auto !important; left: auto !important; width: 100% !important; padding: 100px 40px 60px 40px !important; text-align: center; }
+    
+    .cs-image-mobile { width: 100% !important; height: auto !important; margin-top: 30px; border-radius: 12px; }
+    .keunggulan-grid { grid-template-columns: 1fr !important; }
+  }
+</style>
+</head>
+<body>
+<header class="header">
+<div class="wrap">
+    <a href="index.html" class="logo-link">
+      <img src="assets/logo.png" alt="logo">
+      <div style="color:white;font-weight:800">CV TRIA BAJA UTAMA</div>
+    </a>
+    
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <div class="nav-dropdown">
+        <a href="products.html" class="dropdown-toggle">
+          Products <span style="margin-left:5px">▾</span>
+        </a>
+        <div class="dropdown-menu">
+          <a href="products.html">Products</a>
+          <a href="products.html#service-section">Service</a>
+        </div>
+      </div>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero fade">
+  <img class="hero-img" src="assets/images/hero.jpg" alt="hero">
+  <div class="hero-content">
+    <h1 class="big">Jual Besi & Jasa Pemotongan Presisi di Bekasi</h1>
+    <p class="lead">Supplier material SNI dengan layanan potong cepat, rapi, dan sesuai ukuran proyek Anda. Konsultasi Sekarang!</p>
+    
+    <button class="btn btn-primary" onclick="document.getElementById('product-section').scrollIntoView({behavior: 'smooth'})">Lihat Products</button>
+    <a class="btn btn-accent" href="https://wa.me/628131312966?text=Halo%2C%20Saya%20mau%20tanya" target="_blank">Minta Penawaran</a>
+    
+    <p style="margin-top:14px;color:#dbeafe;font-weight:600">Stok lengkap: H-Beam, WF, UNP, CNP, plat SS400, wiremesh, pipa SCH, dan lainnya.</p>
+    <p style="margin-top:6px;color:#cfe0ff">Established in 1998 — Headquarters Bekasi.</p>
+  </div>
+</section>
+
+<section class="section" style="background: #ffffff; color: #1C1C1C; margin: 60px auto; padding: 60px 20px;">
+  <div style="max-width: 1000px; margin: 0 auto;">
+    <h2 style="text-align: center; font-size: 32px; margin-bottom: 50px; color: #1C1C1C; font-family: 'Oxygen', sans-serif; font-weight: 700;">Mengapa Memilih Kami?</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px; text-align: center;">
+      <div class="stat-card" style="padding: 30px 20px;">
+        <div style="font-size: 40px; font-weight: 800; margin-bottom: 12px; color: #0b1d39; font-family: 'Oxygen', sans-serif;">1998</div>
+        <div style="font-size: 15px; color: #1C1C1C; font-family: 'Oxygen', sans-serif; font-weight: 400; line-height: 1.4;">Established in<br><span style="font-size: 13px; color: #64748b;">Pengalaman 26+ Tahun</span></div>
+      </div>
+      <div class="stat-card" style="padding: 30px 20px;">
+        <div style="font-size: 40px; font-weight: 800; margin-bottom: 12px; color: #0b1d39; font-family: 'Oxygen', sans-serif;">Bekasi</div>
+        <div style="font-size: 15px; color: #1C1C1C; font-family: 'Oxygen', sans-serif; font-weight: 400; line-height: 1.4;">Headquarters<br><span style="font-size: 13px; color: #64748b;">Kota Industri Strategis</span></div>
+      </div>
+      <div class="stat-card" style="padding: 30px 20px;">
+        <div style="font-size: 40px; font-weight: 800; margin-bottom: 12px; color: #0b1d39; font-family: 'Oxygen', sans-serif;">19+</div>
+        <div style="font-size: 15px; color: #1C1C1C; font-family: 'Oxygen', sans-serif; font-weight: 400; line-height: 1.4;">Team members<br><span style="font-size: 13px; color: #64748b;">Profesional & Berpengalaman</span></div>
+      </div>
+      <div class="stat-card" style="padding: 30px 20px;">
+        <div style="font-size: 40px; font-weight: 800; margin-bottom: 12px; color: #0b1d39; font-family: 'Oxygen', sans-serif;">1,975+</div>
+        <div style="font-size: 15px; color: #1C1C1C; font-family: 'Oxygen', sans-serif; font-weight: 400; line-height: 1.4;">Sales & Service Transactions<br><span style="font-size: 13px; color: #64748b;">Projects Completed</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="product-section">
+  <div class="section-title" style="margin-top: 20px;">Products & Layanan</div>
+  <div class="products-grid">
+    <div class="card"><img src="assets/images/thumbs/product_01.jpg" alt="H-Beam"><div style="margin-top:8px;font-weight:700">H-Beam</div></div>
+    <div class="card"><img src="assets/images/thumbs/product_02.jpg" alt="Wide flange (WF)"><div style="margin-top:8px;font-weight:700">Wide flange (WF)</div></div>
+    <div class="card"><img src="assets/images/thumbs/product_03.jpg" alt="Siku"><div style="margin-top:8px;font-weight:700">Siku</div></div>
+    <div class="card"><img src="assets/images/thumbs/product_04.jpg" alt="UNP"><div style="margin-top:8px;font-weight:700">UNP</div></div>
+    <div class="card"><img src="assets/images/thumbs/product_05.jpg" alt="Hollow Hitam"><div style="margin-top:8px;font-weight:700">Hollow Hitam</div></div>
+    <div class="card"><img src="assets/images/thumbs/product_06.jpg" alt="Hollow Galvanis"><div style="margin-top:8px;font-weight:700">Hollow Galvanis</div></div>
+    <div class="card"><img src="assets/images/thumbs/product_07.jpg" alt="Plat SS400"><div style="margin-top:8px;font-weight:700">Plat SS400</div></div>
+    <div class="card"><img src="assets/images/thumbs/product_08.jpg" alt="Plat Bordes"><div style="margin-top:8px;font-weight:700">Plat Bordes</div></div>
+
+    <div class="card more-products"><img src="assets/images/thumbs/product_09.jpg" alt="Wiremesh"><div style="margin-top:8px;font-weight:700">Wiremesh</div></div>
+    <div class="card more-products"><img src="assets/images/thumbs/product_10.jpg" alt="As S45C"><div style="margin-top:8px;font-weight:700">As S45C</div></div>
+    <div class="card more-products"><img src="assets/images/thumbs/product_11.jpg" alt="As St41/Assental"><div style="margin-top:8px;font-weight:700">As St41/Assental</div></div>
+    <div class="card more-products"><img src="assets/images/thumbs/product_12.jpg" alt="Pipa SCH 40"><div style="margin-top:8px;font-weight:700">Pipa SCH 40</div></div>
+    <div class="card more-products"><img src="assets/images/thumbs/product_13.jpg" alt="Pipa SCH 80"><div style="margin-top:8px;font-weight:700">Pipa SCH 80</div></div>
+    <div class="card more-products"><img src="assets/images/thumbs/product_14.jpg" alt="Pipa SCH 120"><div style="margin-top:8px;font-weight:700">Pipa SCH 120</div></div>
+    <div class="card more-products"><img src="assets/images/thumbs/product_15.jpg" alt="Nako/As Kotak"><div style="margin-top:8px;font-weight:700">Nako/As Kotak</div></div>
+    <div class="card more-products"><img src="assets/images/thumbs/product_16.jpg" alt="INP Beam"><div style="margin-top:8px;font-weight:700">INP Beam</div></div>
+    <div class="card more-products"><img src="assets/images/thumbs/product_17.jpg" alt="Besi Ulir/Deformed Bar"><div style="margin-top:8px;font-weight:700">Besi Ulir/Deformed Bar</div></div>
+  </div>
+  
+  <div style="text-align:center; margin-top:30px;">
+    <button id="btnLoadMore" onclick="showMoreProducts()" class="btn btn-primary">Lihat Semua Produk</button>
+  </div>
+</section>
+
+<section class="section" style="background: linear-gradient(135deg, #f8fafc 0%, #e6eef9 100%); padding: 80px 0;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 18px;">
+    <div class="keunggulan-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+      <div>
+        <h2 style="font-size: 32px; color: var(--primary); margin-bottom: 16px; font-weight: 800;">Jangan Khawatir, TRIA BAJA UTAMA Siap Membantu</h2>
+        <p style="color: var(--muted); margin-bottom: 40px; font-size: 16px; line-height: 1.6;">Setiap kebutuhan material besi dan jasa pemotongan untuk proyek konstruksi Anda.</p>
+        <div style="display: grid; grid-template-columns: 1fr; gap: 24px;">
+          <div class="card" style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08); border-left: 4px solid var(--accent);">
+            <div style="display: flex; align-items: flex-start; gap: 16px;">
+              <div style="background: var(--primary); color: white; width: 100px; height: 50px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 20px;"><i class="fas fa-award"></i></div>
+              <div><h3 style="color: var(--primary); margin-bottom: 8px; font-weight: 700;">Kualitas Terjamin</h3><p style="color: var(--muted); line-height: 1.5; margin: 0;">Material besi SNI dengan toleransi presisi, sertifikasi resmi untuk kekuatan dan daya tahan optimal.</p></div>
+            </div>
+          </div>
+          <div class="card" style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08); border-left: 4px solid var(--accent);">
+            <div style="display: flex; align-items: flex-start; gap: 16px;">
+              <div style="background: var(--primary); color: white; width: 100px; height: 50px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 20px;"><i class="fas fa-shipping-fast"></i></div>
+              <div><h3 style="color: var(--primary); margin-bottom: 8px; font-weight: 700;">Pengiriman Tepat Waktu</h3><p style="color: var(--muted); line-height: 1.5; margin: 0;">Jaringan logistik terintegrasi Jabodetabek, pengiriman sesuai jadwal untuk kelancaran proyek tanpa delay.</p></div>
+            </div>
+          </div>
+          <div class="card" style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08); border-left: 4px solid var(--accent);">
+            <div style="display: flex; align-items: flex-start; gap: 16px;">
+              <div style="background: var(--primary); color: white; width: 100px; height: 50px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 20px;"><i class="fas fa-tag"></i></div>
+              <div><h3 style="color: var(--primary); margin-bottom: 8px; font-weight: 700;">Harga Kompetitif</h3><p style="color: var(--muted); line-height: 1.5; margin: 0;">Harga terbaik tanpa kompromi kualitas, penawaran transparan untuk efisiensi anggaran proyek.</p></div>
+            </div>
+          </div>
+          <div class="card" style="background: white; padding: 24px; border-radius: 12px; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08); border-left: 4px solid var(--accent);">
+            <div style="display: flex; align-items: flex-start; gap: 16px;">
+              <div style="background: var(--primary); color: white; width: 100px; height: 50px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 20px;"><i class="fas fa-headset"></i></div>
+              <div><h3 style="color: var(--primary); margin-bottom: 8px; font-weight: 700;">Proses Pemesanan Mudah</h3><p style="color: var(--muted); line-height: 1.5; margin: 0;">Sistem simpel dan responsif, tim profesional siap bantu dari konsultasi hingga pengiriman.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-image-container">
+        <img src="assets/images/customer-service.jpg" alt="Customer Service CV TRIA BAJA UTAMA" class="cs-image-mobile" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(11, 29, 57, 0.1);">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Pertanyaan Umum (FAQ)</h2>
+  <div class="faq-container">
+    <details class="faq-item">
+      <summary>Apakah menyediakan layanan pengiriman?</summary>
+      <p>Kami menyediakan layanan pengiriman untuk wilayah Jabodetabek maupun luar kota. Silakan hubungi admin untuk informasi lebih lanjut.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Berapa minimal pemesanan?</summary>
+      <p>Tidak ada minimal pemesanan. Kami melayani kebutuhan eceran maupun partai besar untuk proyek. Silakan hubungi admin untuk detailnya.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Apakah bisa potong besi sesuai ukuran?</summary>
+      <p>Tentu. Kami menyediakan jasa pemotongan (cutting) dengan mesin presisi sesuai permintaan ukuran (custom size).</p>
+    </details>
+    <details class="faq-item">
+      <summary>Produk apa saja yang dapat dibeli sesuai ukuran?</summary>
+      <p>Di Tria Baja Utama, tersedia berbagai produk yang dapat dipesan sesuai kebutuhan ukuran, termasuk: plat, as, pipa, nako, siku, UNP, dan produk baja lainnya.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Apakah Tria Baja Utama menerima layanan fabrikasi?</summary>
+      <p>Ya, tentu. Tria Baja Utama melayani jasa fabrikasi, termasuk pekerjaan pengelasan (welding) dan kebutuhan fabrikasi lainnya.(custom size).</p>
+    </details>
+    <details class="faq-item">
+      <summary>Bagaimana jam operasional Tria Baja Utama?</summary>
+      <p>Jam operasional kami adalah: Senin – Sabtu: 08.00 – 16.30 Istirahat: 12.00 – 13.00.</p>
+    </details>
+  </div>
+</section>
+
+<section style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding-top: 20px;">
+  <div style="max-width:1200px;margin:0 auto;padding:0 18px;">
+    <h2 style="text-align:center;color:var(--primary);font-size:28px;font-weight:700;">Dipercaya Oleh</h2>
+  </div>
+  
+  <div class="slider-container">
+    <div class="slider-track">
+      <div class="partner-logo"><img src="assets/images/partners/foto1.png" alt="Partner 1"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto2.png" alt="Partner 2"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto3.png" alt="Partner 3"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto4.png" alt="Partner 4"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto5.png" alt="Partner 5"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto6.png" alt="Partner 6"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto7.png" alt="Partner 7"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto8.png" alt="Partner 8"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto9.png" alt="Partner 9"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto10.png" alt="Partner 10"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto11.png" alt="Partner 11"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto12.png" alt="Partner 12"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto13.png" alt="Partner 13"></div>
+
+      <div class="partner-logo"><img src="assets/images/partners/foto1.png" alt="Partner 1"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto2.png" alt="Partner 2"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto3.png" alt="Partner 3"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto4.png" alt="Partner 4"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto5.png" alt="Partner 5"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto6.png" alt="Partner 6"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto7.png" alt="Partner 7"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto8.png" alt="Partner 8"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto9.png" alt="Partner 9"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto10.png" alt="Partner 10"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto11.png" alt="Partner 11"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto12.png" alt="Partner 12"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto13.png" alt="Partner 13"></div>
+
+      <div class="partner-logo"><img src="assets/images/partners/foto1.png" alt="Partner 1"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto2.png" alt="Partner 2"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto3.png" alt="Partner 3"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto4.png" alt="Partner 4"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto5.png" alt="Partner 5"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto6.png" alt="Partner 6"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto7.png" alt="Partner 7"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto8.png" alt="Partner 8"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto9.png" alt="Partner 9"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto10.png" alt="Partner 10"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto11.png" alt="Partner 11"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto12.png" alt="Partner 12"></div>
+      <div class="partner-logo"><img src="assets/images/partners/foto13.png" alt="Partner 13"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-enhanced">
+  <div class="footer-content">
+    <div class="footer-main">
+      <div class="footer-company">
+        <a href="index.html" class="footer-logo-link">
+          <img src="assets/logo.png" alt="CV TRIA BAJA UTAMA">
+          <div class="footer-logo-text">CV TRIA BAJA UTAMA</div>
+        </a>
+        <p class="footer-address">
+          <strong>Head Office</strong><br>
+          Jl. Teuku Umar, RT 004, RW 001. No.106,<br>
+          Kel. Sepanjangjaya, Kec. Rawalumbu,<br>
+          Kota Bekasi, Jawa Barat, 17114
+        </p>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Customer Support</h4>
+        <div class="contact-info">
+          <div class="contact-item"><i class="fas fa-phone"></i><div><strong>Telepon</strong><br>+62 813-1312-966</div></div>
+          <div class="contact-item"><i class="fas fa-envelope"></i><div><strong>Email</strong><br>cvtriabajautama@gmail.com</div></div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Connect with us</h4>
+        <div class="social-section">
+          <div class="social-links-vertical">
+            <div class="social-row">
+              <a href="https://wa.me/628131312966?text=Halo%2C%20Saya%20mau%20tanya" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://www.facebook.com/share/1AEc9z4TGZ/?mibextid=wwXIfr" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/triabajautama?igsh=MTQ0bzgydjd6NGZ5aA==" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="social-row">
+              <a href="https://id.shp.ee/MJYuFcx" class="social-link" target="_blank"><img src="assets/icons/shopee-icon.png" alt="Shopee" class="ecommerce-icon"></a>
+              <a href="https://tk.tokopedia.com/ZSfAG5XS2/" class="social-link" target="_blank"><img src="assets/icons/tokopedia-icon.png" alt="Tokopedia" class="ecommerce-icon"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© 2025 by CV. Tria Baja Utama | V1.1.5</small>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/628131312966?text=Halo%2C%20Saya%20mau%20tanya" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i> WhatsApp
+</a>
+
+<button id="backToTop" onclick="topFunction()" title="Kembali ke atas">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<nav class="mobile-nav" id="mobileNav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <div class="mobile-dropdown">
+    <a href="products.html" class="mobile-dropdown-toggle" onclick="toggleMobileDropdown(event)">
+      Products <span style="margin-left:5px">▾</span>
+    </a>
+    <div class="mobile-dropdown-menu">
+      <a href="products.html" onclick="closeMobileMenu()">Products</a>
+      <a href="products.html#service-section" onclick="closeMobileMenu()">Service</a>
+    </div>
+  </div>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<script>
+function toggleMobileMenu() { document.getElementById('mobileNav').classList.toggle('active'); }
+function closeMobileMenu() { document.getElementById('mobileNav').classList.remove('active'); }
+function toggleMobileDropdown(event) { event.preventDefault(); event.target.closest('.mobile-dropdown').querySelector('.mobile-dropdown-menu').classList.toggle('active'); }
+document.addEventListener('click', function(e) {
+  const mobileNav = document.getElementById('mobileNav');
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  if (!mobileNav.contains(e.target) && !menuBtn.contains(e.target)) {
+    mobileNav.classList.remove('active');
+    document.querySelectorAll('.mobile-dropdown-menu').forEach(menu => menu.classList.remove('active'));
+  }
+});
+
+// Back To Top Logic (SMOOTH)
+window.onscroll = function() { scrollFunction() };
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    document.getElementById("backToTop").style.display = "flex";
+  } else {
+    document.getElementById("backToTop").style.display = "none";
+  }
+}
+function topFunction() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+const obs = new IntersectionObserver(e => { e.forEach(x => { if (x.isIntersecting) x.target.classList.add("visible") }) });
+document.querySelectorAll(".fade").forEach(el => obs.observe(el));
+
+// FUNGSI KHUSUS INDEX: LIHAT SEMUA PRODUK
+function showMoreProducts() {
+  const hiddenItems = document.querySelectorAll('.more-products');
+  hiddenItems.forEach(item => {
+    item.style.display = 'block';
+    // Animasi kecil agar smooth
+    item.style.opacity = 0;
+    setTimeout(() => {
+      item.style.transition = 'opacity 0.5s';
+      item.style.opacity = 1;
+    }, 50);
+  });
+  
+  // Sembunyikan tombol setelah diklik
+  document.getElementById('btnLoadMore').style.display = 'none';
+}
+</script>
+</body>
+</html>
